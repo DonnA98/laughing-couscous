@@ -27,8 +27,8 @@
 
     <Button
         android:id="@+id/mainGoButton"
-        android:layout_height="wrap_content"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="260dp"
         android:layout_marginEnd="136dp"
         android:layout_marginLeft="136dp"
@@ -36,6 +36,7 @@
         android:layout_marginStart="136dp"
         android:layout_marginTop="260dp"
         android:background="#d79f5e"
+        android:onClick="sendMessage"
         android:text="@string/mainGoButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,7 +55,6 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/mainName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
